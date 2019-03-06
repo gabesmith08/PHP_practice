@@ -13,6 +13,7 @@ function getBirthDate($birthdate)
 	//create new birthday date array with month, day, and year split into seperate indicies
 	$arrBirthDate = explode('/', $birthdate);
 
+	
 	//if statement to determine whether it's the user's birthday or not
 	if($arrDateSeperate[0] == $arrBirthDate[0] && $arrDateSeperate[1] == $arrBirthDate[1])
 		$isBirthday = true;

@@ -1,11 +1,15 @@
 <?php
 
-
 function bubbleSort($input)
 {
-    $swapped=true;
-    $n=count($input);
-    $temp=null;
+    //swap variable
+    $swapped = true;
+
+    //variable to store length of $input
+    $n = count($input);
+
+    //temp variable
+    $temp = null;
 
     //outer loop
     while($swapped)

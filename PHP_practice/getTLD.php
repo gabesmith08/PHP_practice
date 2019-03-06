@@ -17,5 +17,4 @@ function getTLD($url)
 	return $tld;
 }
 
-
 ?>
