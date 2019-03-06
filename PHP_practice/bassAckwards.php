@@ -19,7 +19,7 @@ function bassAckwards($input)
 				$tempWord[$j] = $temp;
 			}
 			// made an if statement to reset the input variable and fill it back up correctly
-			if($k == 0)
+			if($k==0)
 				$input = "";
 			else
 				$input .= ",";
@@ -27,6 +27,5 @@ function bassAckwards($input)
 		}
 	return $input;
 }
-
 
 ?>
