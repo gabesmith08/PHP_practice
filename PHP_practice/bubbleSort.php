@@ -19,16 +19,15 @@ function bubbleSort($input)
         for($i=0; $i<$n-1; $i++)
         {
             //swap if the current value is greater the next value. change > to > for descending order
-            if( $input[$i]>$input[$i+1]) 
+            if($input[$i] > $input[$i+1]) 
             {
-                $temp=$input[$i];
-                $input[$i]=$input[$i+1];
-                $input[$i+1]=$temp;
-                $swapped=true;
+                $temp = $input[$i];
+                $input[$i] = $input[$i+1];
+                $input[$i+1] = $temp;
+                $swapped = true;
             }
         }
     }
- 
     return $input;
 }
 
