@@ -3,7 +3,7 @@
 function hasHold($college)
 {
     //selects the student's ID, Last Name, College, and Amount they have Due.
-    //only if the student currently has an account on hold because of unpaid tuition
+    //for all students who have accounts on hold in the given $college.
 	$query = ("SELECT interview_student.Student_ID,
 					  interview_student.Last_Name, 
 					  interview_student.College, 
